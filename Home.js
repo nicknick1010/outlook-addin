@@ -1,4 +1,4 @@
-﻿function submitApiKey() {
+function submitApiKey() {
     const apiKey = document.getElementById('apiKey').value;
     localStorage.setItem('openai_api_key', apiKey);
     document.getElementById('status').innerText = 'API Key saved. You can now send emails.';
